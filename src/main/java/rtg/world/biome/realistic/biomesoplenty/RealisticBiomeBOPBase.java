@@ -32,7 +32,6 @@ public abstract class RealisticBiomeBOPBase extends RealisticBiomeBase {
     public static RealisticBiomeBase bopGrassland;
     public static RealisticBiomeBase bopGravelBeach;
     public static RealisticBiomeBase bopGrove;
-    public static RealisticBiomeBase bopHeathland;
     public static RealisticBiomeBase bopHighland;
     public static RealisticBiomeBase bopKelpForest;
     public static RealisticBiomeBase bopLandOfLakes;
@@ -156,9 +155,6 @@ public abstract class RealisticBiomeBOPBase extends RealisticBiomeBase {
             }
             if (BOPBiomes.grove.isPresent()) {
                 bopGrove = new RealisticBiomeBOPGrove();
-            }
-            if (BOPBiomes.heathland.isPresent()) {
-                bopHeathland = new RealisticBiomeBOPHeathland();
             }
             if (BOPBiomes.highland.isPresent()) {
                 bopHighland = new RealisticBiomeBOPHighland();
